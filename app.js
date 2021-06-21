@@ -13,7 +13,7 @@ fetch("user.json")
     const temp = dat.slice(start,end);
     // console.log(temp);
     displayUser(temp);
-    loadData(dat)
+    // loadData(dat)
     // const no = parseInt(document.getElementById('page').value);
     // const start = page * no;
     // const end = page * no + no;

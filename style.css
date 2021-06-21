@@ -9,7 +9,7 @@ body {
 }
   
 .container {
-    height: 100vh auto;
+    height: 100vh;
     width: 100%;
     display: grid;
     place-items: center;
@@ -434,7 +434,7 @@ button:hover {
 
 /* Pagination */
 .pagination{
-    margin-top: 15px;
+    margin-top: 5px;
 }
 .pagination a {
   color: black;

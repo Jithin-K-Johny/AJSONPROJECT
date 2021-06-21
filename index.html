@@ -62,7 +62,7 @@
       <input type="hidden" id="index">
       <h2>USER DATA</h2>
       <div id="error"></div>
-      <form id="form" onsubmit="AddUser(); event.preventDefault();  return false">
+      <form id="form" onsubmit="AddUser(); event.preventDefault();  return false" autocomplete="off">
         <div class="input-group">
           <div class="input-box"> 
             <h4>ID</h4>
@@ -121,8 +121,8 @@
 
           <div class="input-group">
             <div class="input-box">
-              <select id="input" onchange="countryChange()">
-                <option>select nation</option>
+              <select id="input" onchange="countryChange()" required>
+                <option selected>select nation</option>
                 <option>India</option>
                 <option>USA</option>
               </select>
