@@ -190,7 +190,7 @@ function countryChange() {
     var a = document.getElementById('input').value;
     // console.log(a)
     if(a === 'India') {
-        var array = ["Kerala", "Tamilnadu", "Utter Predesh", "Punchab"];
+        var array = ["Kerala", "Tamilnadu", "Uttar Predesh", "Punjab"];
 
     } else if(a === 'USA') {
         var array = ["Washington", "Texas", "Ontario"];
